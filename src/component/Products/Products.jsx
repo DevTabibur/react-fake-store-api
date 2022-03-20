@@ -14,7 +14,7 @@ const Products = (props) => {
   // console.log(products);
   return (
     <div>
-    <div className="container">
+    <div className="container mt-5">
     <div className="row">
       {products.map((pd) => (
         <SingleProduct key={pd.id} product={pd}  setCartCount={setCartCount}/>
