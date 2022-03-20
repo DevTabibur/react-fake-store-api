@@ -4,7 +4,6 @@ import "./SingleProduct.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReactModal from "../ReactModal/ReactModal";
 
-
 const SingleProduct = (props) => {
   
   return (
