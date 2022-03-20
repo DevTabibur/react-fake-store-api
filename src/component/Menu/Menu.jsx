@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Menu.css'
-import App from '../../App';
 
 const Menu = (props) => {
     return (
-        <div>
+        <>
+            <div className=' sticky-top bg-light'>
             <div className="container">
                 <div className="row">
                     <div className="col-md-2 p-4">Logo</div>
@@ -20,6 +20,7 @@ const Menu = (props) => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
