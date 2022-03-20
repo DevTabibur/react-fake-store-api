@@ -13,7 +13,7 @@ const Menu = (props) => {
                     </div>
                     <div className="col-md-10">
                         <ul className="menu-container">
-                            <li className='list-items ms-2 p-4'>HOME</li>
+                            <li className='list-items ms-2 p-4'><a href="#">HOME</a></li>
                             <li className='list-items ms-2 p-4'>CONTACT</li>
                             <li className='list-items ms-2 p-4'>CART <small><sup>{props.count}</sup></small>  </li>
                             <li className='list-items ms-2 p-4'>LOGIN</li>
