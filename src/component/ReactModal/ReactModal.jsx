@@ -18,7 +18,10 @@ const ReactModal = (props) => {
         <img className="w-50" src={image} alt="" />
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{description}</Modal.Body>
+        <Modal.Body>
+          <p>{description}</p>
+          <h2 className="text-center m-auto">Price: {price}</h2>
+        </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
