@@ -8,7 +8,9 @@ const Menu = (props) => {
             <div className=' sticky-top bg-light'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-2 p-4">Logo</div>
+                    <div className="col-md-2 p-4">
+                        <h2>DevTabibur</h2>
+                    </div>
                     <div className="col-md-10">
                         <ul className="menu-container">
                             <li className='list-items ms-2 p-4'>HOME</li>
